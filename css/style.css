@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@600&family=Bebas+Neue&family=Yusei+Magic&display=Roboto:ital,wght@0,500;0,700;0,900;1,400&display=swap");
+body {
+  overflow-x: hidden;
+}
+
+.card {
+  cursor: pointer !important;
+}
+
 h1,
 h3,
 h2,
@@ -153,7 +161,7 @@ h3 {
 }
 
 #review-section {
-  background: #f8edeb;
+  background: #ebddda;
 }
 
 #review-section .carousel.slide {
@@ -191,5 +199,58 @@ h3 {
 
 #review-section .carousel.slide .carousel-indicators li {
   background-color: black;
+}
+
+#contact-us .from-col {
+  margin: auto;
+  margin: 30px auto 0 auto;
+}
+
+#contact-us .from-col h2 {
+  text-align: center;
+}
+
+#contact-us .from-col P {
+  text-align: center;
+}
+
+#contact-us .from-col input[type="text"].form-control {
+  font-size: 20px;
+  padding: 20px;
+}
+
+#contact-us .from-col input.btn {
+  margin-top: 10px;
+  width: 150px;
+  -webkit-transition: all 1s !important;
+  transition: all 1s !important;
+}
+
+#contact-us .from-col input.btn:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#0354a5), to(#022d8a));
+  background: linear-gradient(#0354a5, #022d8a);
+  color: white;
+}
+
+.btn {
+  background: -webkit-gradient(linear, left top, left bottom, from(#022d8a), to(#0354a5));
+  background: linear-gradient(#022d8a, #0354a5);
+  color: white;
+  font-size: 18px;
+  padding: 10px 25px;
+}
+
+@media screen and (max-width: 992px) {
+  #header-banner .first-col {
+    margin-bottom: 100px;
+  }
+  #find-perfect .card-body {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+  }
+  #find-perfect .second-col img {
+    margin-top: 50px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
