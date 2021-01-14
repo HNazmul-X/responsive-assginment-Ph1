@@ -237,7 +237,8 @@ h3 {
   background: linear-gradient(#022d8a, #0354a5);
   color: white;
   font-size: 18px;
-  padding: 10px 25px;
+  width:initial;
+  padding: 10px !important;
 }
 
 @media screen and (max-width: 992px) {
